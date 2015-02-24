@@ -1,0 +1,32 @@
+Boris Aguilar, Manan Bhagat, and Onur Olmez
+Prof. Santrupti
+CS 49J
+9 February 2015
+												
+												Java Encryption and Decryption Program Project Proposal
+	
+	For our project, our team has elected to create a Java encryption/decryption mechanism as our term project. 
+	
+	Our program will include the following features and subsets:
+	
+	Ability for the user to easily encrypt a file
+	Ability to decrypt a file that have been encrypted
+	Usage of the AES/ECB/PKCS7Padding algorithm for file encryption 1, 2
+	Usage of a 256-bit AES symmetric key for encryption/decryption 3
+	The bit-size of the AES cipher key is determined by the number of repetitive transformations that are performed 
+	on the plaintext to convert it into the final ciphertext output (for encryption), or vice versa (for decryption).
+	
+	Our program will use the highest level of encryption – 256-bit AES – which will require 14 cycles of repetitive 
+	transformations performed to the plaintext message or ciphertext.
+	Dynamic Encryption 4
+	Our program will have the ability to dynamically encrypt or decrypt, in real-time, a string of text or ciphertext.
+
+
+Footnotes
+1: http://www.java2s.com/Code/Java/Security/EncryptionanddecryptionwithAESECBPKCS7Pad
+ding.htm
+2: http://stackoverflow.com/questions/10759392/java-aes-encryption-and-decryption
+3: http://stackoverflow.com/questions/6538485/java-using-aes-256-and-128-symmetric-key-encr
+yption
+4: http://stackoverflow.com/questions/19505091/dynamically-create-cipher-using-configuration-
+what-parameters-are-necessary
