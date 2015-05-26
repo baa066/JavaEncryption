@@ -1,0 +1,22 @@
+Boris Aguilar, Manan Bhagat, and Onur Olmez
+Prof. Santrupti
+CS 49J
+8 April 2015
+                                                  Project Update
+	For our project, our team had elected to create a Java encryption/decryption mechanism as our term project.
+	Between the time of our project proposal submittal and now, we have successfully accomplished the ability to write a program that prompts the user with the menu below, giving the user two options: 
+	1. Encrypt a string, or 2. Decrypt a string.
+	 
+	 Code:  
+	 Would you like to 1. Encrypt or 2. Decrypt
+  
+  At this point, we are able to encrypt files (option 1) through the useage of a specific, AES, 128-bit key and cipher. 
+  We have some bugs in the decryption portion of our program, however. 
+  We are now working on resolving this issue as our main goal for the project.
+	Below is a screenshot of our encryption program.
+	  Code:
+	  Would you like to 1. Encrypt or 2. Decrypt
+	  1
+	  Hello there
+	  Encrypted Key in image
+
